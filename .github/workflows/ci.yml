@@ -2,6 +2,9 @@ name: CI
 
 on:
   push:
+    branches:
+      - main
+      - next # TODO: remove this once next branch is merged into main
   pull_request:
 
 jobs:
